@@ -121,7 +121,7 @@ const Play = () => {
   };
 
   useEffect(startingBoardEffect, []);
-  useEffect(setsAvailableEffect, [board]);
+  useEffect(setsAvailableEffect, [setsAvailable]);
   useEffect(cardSetFoundEffect, [cardSet]);
   /* #endregion */
 

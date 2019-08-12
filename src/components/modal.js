@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const StyledOverlay = styled.div`
   width: 100%;
+  z-index: 4;
   position: absolute;
   align-items: center;
   justify-content: center;
