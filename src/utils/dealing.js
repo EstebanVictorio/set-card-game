@@ -1,6 +1,6 @@
 export const getDeck = () => {
   let deck = [];
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < 81; i++) {
     let base3Num = i.toString(3);
     deck.push(base3Num.padStart(4, 0));
   }
