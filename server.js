@@ -14,6 +14,14 @@ server.get("/play", (req, res) => {
   res.sendFile(path.resolve(__dirname) + "/build/index.html");
 });
 
+server.get("/set-card-game", (req, res) => {
+  res.sendFile(path.resolve(__dirname) + "/build/index.html");
+});
+
+server.get("/set-card-game/play", (req, res) => {
+  res.sendFile(path.resolve(__dirname) + "/build/index.html");
+});
+
 server.use(express.static("public"));
 server.use(express.static("build"));
 
