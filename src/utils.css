@@ -1,0 +1,12 @@
+.Button {
+  padding: 8px;
+  max-width: 80px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+  border-radius: 4px;
+  cursor: pointer;
+}
