@@ -22,8 +22,8 @@ server.get("/set-card-game/play", (req, res) => {
   res.sendFile(path.resolve(__dirname) + "/build/index.html");
 });
 
-server.use(express.static("public"));
-server.use(express.static("build"));
+server.use(express.static(__dirname + "/set-card-game/build"));
+server.use(express.static(__dirname + "/set-card-game/public"));
 
 (async () => {
   await server.listen(port);
